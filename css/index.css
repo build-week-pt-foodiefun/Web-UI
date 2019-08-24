@@ -148,12 +148,13 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.landing {
+  position: relative;
+}
 header {
   display: flex;
   max-width: 100%;
-}
-.tacos {
-  max-width: 100%;
+  position: absolute;
 }
 nav {
   width: 100%;
@@ -172,6 +173,34 @@ nav a {
 }
 nav .login {
   margin-top: 1rem;
+  padding: 0.8rem;
+  background: cornflowerblue;
+  font-weight: bold;
+}
+.tacos {
+  max-width: 100%;
+}
+.top-content {
+  position: absolute;
+  margin: 8.5rem 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: cornsilk;
+  padding: 3rem;
+  background: rgba(1, 1, 1, 0.5);
+}
+.top-content h1 {
+  border-top: cornsilk solid 1px;
+  border-bottom: cornsilk solid 1px;
+  margin: 1rem;
   padding: 1rem;
-  background: blue;
+}
+.top-content button {
+  margin: 2rem 0 0 0;
+  color: cornsilk;
+  text-decoration: none;
+  padding: 1.3rem 2.5rem;
+  background: none;
+  border: 1px solid cornsilk;
 }
