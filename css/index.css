@@ -204,3 +204,6 @@ nav .login {
   background: none;
   border: 1px solid cornsilk;
 }
+.bottom-content {
+  position: relative;
+}
