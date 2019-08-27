@@ -1,9 +1,9 @@
 .tacos{
     max-width: 100%;
+    z-index: -1;
 }//.tacos
 
 .top-content{
-    position: absolute;
     margin: 8.5rem 6rem;
     display: flex;
     flex-direction: column;
@@ -19,6 +19,12 @@
         padding: 1rem
     }//h1
 
+    hr{
+        width: 72%;
+        border-top: 1px solid cornsilk;
+        border-bottom: none;
+    }
+
     button{
         margin: 2rem 0 0 0;
         color: cornsilk;
@@ -30,5 +36,8 @@
 }//.top-content
 
 .bottom-content{
-    position: relative;
+    position: absolute;
+    top: 1000px;
+    color: black;
+    z-index: +3;
 }//.bottom-content

@@ -147,9 +147,8 @@ p {
 .container {
   width: 100%;
   margin: 0 auto;
-}
-.landing {
-  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 header {
   display: flex;
@@ -158,7 +157,7 @@ header {
 }
 nav {
   width: 100%;
-  position: absolute;
+  position: fixed;
   display: flex;
   justify-content: flex-end;
   background: rgba(1, 1, 1, 0.5);
@@ -179,9 +178,9 @@ nav .login {
 }
 .tacos {
   max-width: 100%;
+  z-index: -1;
 }
 .top-content {
-  position: absolute;
   margin: 8.5rem 6rem;
   display: flex;
   flex-direction: column;
@@ -196,6 +195,11 @@ nav .login {
   margin: 1rem;
   padding: 1rem;
 }
+.top-content hr {
+  width: 72%;
+  border-top: 1px solid cornsilk;
+  border-bottom: none;
+}
 .top-content button {
   margin: 2rem 0 0 0;
   color: cornsilk;
@@ -205,5 +209,8 @@ nav .login {
   border: 1px solid cornsilk;
 }
 .bottom-content {
-  position: relative;
+  position: absolute;
+  top: 1000px;
+  color: black;
+  z-index: 3;
 }
