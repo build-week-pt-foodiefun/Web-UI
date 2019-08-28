@@ -172,7 +172,7 @@ nav .login {
 }
 body {
   background: url(/images/tacos-bg.jpg) no-repeat scroll center top;
-  background-size: 125%;
+  background-size: 220%;
 }
 .top-content {
   margin-top: 18%;
@@ -218,6 +218,7 @@ body {
   flex-direction: column;
   text-align: center;
   align-items: center;
+  margin-bottom: 2rem;
   color: cornsilk;
   background: rgba(1, 1, 1, 0.5);
   margin-top: none;
