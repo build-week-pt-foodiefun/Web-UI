@@ -4,8 +4,25 @@
     flex-direction: column;
     padding: 3%;
     width:100%;
+    
+    @media (min-width:500px){
+      margin-top: 0%;
+     flex-direction: row;
+     flex-wrap: wrap;  
+     justify-content: space-evenly
+      }
+    
     .pics{
       width: 100%;
+      @media (min-width:500px){
+        width: 200px;
+        height: 200px;
+      }
+      @media (min-width:800px){
+        width: 400px;
+        height: 400px;
+        margin: 0 5rem;
+      }
     }   
     .us-text {
       width: 100%;
