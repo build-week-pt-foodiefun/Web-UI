@@ -218,9 +218,47 @@ nav .login {
   margin-top: 15%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   padding: 3%;
+  width: 100%;
+}
+@media (min-width: 500px) {
+  .us {
+    margin-top: 0%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
 }
 .us .pics {
   width: 100%;
+}
+@media (min-width: 500px) {
+  .us .pics {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (min-width: 800px) {
+  .us .pics {
+    width: 400px;
+    height: 400px;
+    margin: 0 5rem;
+  }
+}
+.us .us-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.8rem;
+  margin-top: 3%;
+  align-items: center;
+  text-decoration: none;
+  border-bottom: 1px solid silver;
+}
+.us a {
+  margin: 1% 0;
+}
+.us div {
+  margin-top: 10%;
 }
