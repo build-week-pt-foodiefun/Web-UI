@@ -177,17 +177,18 @@ nav .login {
 }
 .home {
   background: url(/images/tacos-bg.jpg) no-repeat scroll center top;
-  background-size: 165%;
+  background-size: 185%;
   background-attachment: fixed;
   background-position: top;
 }
 @media (min-width: 500px) {
   .home {
-    background-size: 100%;
+    background-size: 165%;
   }
 }
 @media (min-width: 800px) {
   .home {
+    background-size: 100%;
     background-position: 0 70%;
   }
 }
