@@ -179,7 +179,7 @@ nav .login {
   background: url(/images/tacos-bg.jpg) no-repeat scroll center top;
   background-size: 165%;
   background-attachment: fixed;
-  background-position: bottom;
+  background-position: top;
 }
 @media (min-width: 500px) {
   .home {
