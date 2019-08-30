@@ -179,7 +179,7 @@ nav .login {
   background: url(/images/tacos-bg.jpg) no-repeat scroll center top;
   background-size: 185%;
   background-attachment: fixed;
-  background-position: top;
+  background-position: top center;
 }
 @media (min-width: 500px) {
   .home {
@@ -201,11 +201,9 @@ nav .login {
   text-align: center;
   align-items: center;
   color: cornsilk;
-  position: relative;
   padding: 3rem;
   background: rgba(1, 1, 1, 0.5);
   margin-bottom: none;
-  z-index: 1;
 }
 @media (min-width: 500px) {
   .top-content {
@@ -240,44 +238,44 @@ nav .login {
   border-top: 1px solid cornsilk;
   border-bottom: none;
 }
-.top-content button {
-  margin: 2rem 0 0 0;
-  color: cornsilk;
+.top-content a {
   text-decoration: none;
+  color: cornsilk;
+  font-size: 1.6rem;
+  margin: 2rem 0 0 0;
   padding: 1.3rem 2.5rem;
   background: none;
   border: 1px solid cornsilk;
 }
-.top-content button:hover {
+.top-content a:hover {
   background: rgba(158, 158, 158, 0.5);
 }
-.top-content button:active {
+.top-content a:active {
   background: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
   color: black;
 }
 .bottom-content {
+  width: 100%;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
-  margin-bottom: 2rem;
   padding-top: 3rem;
-  position: absolute;
-  color: cornsilk;
-  background: rgba(1, 1, 1, 0.5);
-  margin-top: none;
-  margin-left: 12.5%;
-  width: 75%;
+  color: black;
+  background: cornsilk;
 }
 @media (min-width: 500px) {
   .bottom-content {
     width: 65%;
+    background: rgba(1, 1, 1, 0.5);
     margin-left: 17.5%;
   }
 }
 @media (min-width: 800px) {
   .bottom-content {
     width: 50%;
+    background: rgba(1, 1, 1, 0.5);
     margin-left: 25%;
   }
 }
@@ -290,6 +288,23 @@ nav .login {
 @media (min-width: 500px) {
   .bottom-content p {
     font-size: 2rem;
+    color: cornsilk;
+  }
+}
+.bottom-content .logo {
+  display: none;
+}
+@media (min-width: 500px) {
+  .bottom-content .logo {
+    display: flex;
+  }
+}
+.bottom-content .logo1 {
+  display: flex;
+}
+@media (min-width: 500px) {
+  .bottom-content .logo1 {
+    display: none;
   }
 }
 .us {

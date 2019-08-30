@@ -2,7 +2,7 @@
     background: url(/images/tacos-bg.jpg) no-repeat scroll center top;
     background-size: 185%;
     background-attachment: fixed;
-    background-position: top;
+    background-position: top center;
 
     @media @tablet{
         background-size: 165%;
@@ -23,11 +23,9 @@
     text-align: center;
     align-items: center;
     color: cornsilk;
-    position: relative;
     padding: 3rem;
     background: rgba(1, 1, 1, 0.5);
     margin-bottom: none;
-    z-index: 1;
 
     @media @tablet{
         width: 65%;
@@ -62,46 +60,50 @@
         border-bottom: none;
     }//hr
 
-    button{
-        margin: 2rem 0 0 0;
-        color: cornsilk;
+    a{
         text-decoration: none;
+        color: cornsilk;
+        font-size: 1.6rem;
+        margin: 2rem 0 0 0;
         padding: 1.3rem 2.5rem;
         background: none;
         border: 1px solid cornsilk;
-    }//button
+    }//a
 
-    button:hover{
+    a:hover{
         background: rgba(158, 158, 158, 0.5);
     }//button:hover
 
-    button:active{
+    a:active{
         background: rgba(255, 255, 255, 0.5);
+        text-decoration: none;
         color: black;
     }//button:hover
 }//.top-content
 
 .bottom-content{
+    width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    margin-bottom: 2rem;
+    //margin-bottom: 2rem;
     padding-top: 3rem;
-    position: absolute;
-    color: cornsilk;
-    background: rgba(1, 1, 1, 0.5);
-    margin-top: none;
-    margin-left: 12.5%;
-    width: 75%;
+    color: black;
+    background: cornsilk;
+    // margin-top: none;
+    // margin-left: 12.5%;
+    
 
     @media @tablet{
         width: 65%;
+        background: rgba(1, 1, 1, 0.5);
         margin-left: 17.5%;
     }//tablet
 
     @media @desktop{
         width: 50%;
+        background: rgba(1, 1, 1, 0.5);
         margin-left: 25%;
     }//desktop
     
@@ -116,6 +118,23 @@
     p{
         @media @tablet{
             font-size: 2rem;
+            color: cornsilk;
         }//tablet
     }//p
+
+    .logo{
+        display: none;
+        
+        @media @tablet{
+            display: flex;
+        }//tablet
+    }//logo
+
+    .logo1{
+        display: flex;
+
+        @media @tablet{
+            display: none;
+        }//tablet
+    }//logo1
 }//.bottom-content
