@@ -183,6 +183,7 @@ nav .login {
   position: fixed;
   background-position: top;
   background-repeat: no-repeat;
+  z-index: -1;
 }
 @media (min-width: 500px) {
   .home {
