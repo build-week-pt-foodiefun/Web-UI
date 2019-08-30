@@ -240,22 +240,17 @@ nav .login {
 }
 .top-content button {
   margin: 2rem 0 0 0;
+  color: cornsilk;
+  text-decoration: none;
   padding: 1.3rem 2.5rem;
   background: none;
   border: 1px solid cornsilk;
-}
-.top-content button a {
-  text-decoration: none;
-  color: cornsilk;
 }
 .top-content button:hover {
   background: rgba(158, 158, 158, 0.5);
 }
 .top-content button:active {
   background: rgba(255, 255, 255, 0.5);
-}
-.top-content button:active a {
-  text-decoration: none;
   color: black;
 }
 .bottom-content {
