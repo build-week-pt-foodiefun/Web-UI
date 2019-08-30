@@ -204,6 +204,7 @@ nav .login {
   padding: 3rem;
   background: rgba(1, 1, 1, 0.5);
   padding-bottom: 3rem;
+  margin-bottom: 10%;
 }
 @media (min-width: 500px) {
   .top-content {
