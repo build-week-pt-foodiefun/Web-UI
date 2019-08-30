@@ -1,12 +1,8 @@
 .home{
-    background: url(/images/tacos-bg.jpg);
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    position: fixed;
+    background: url(/images/tacos-bg.jpg) no-repeat scroll center top;
+    background-size: 185%;
+    background-attachment: fixed;
     background-position: top;
-    background-repeat: no-repeat;
-    z-index: -1;
 
     @media @tablet{
         background-size: 165%;
@@ -27,9 +23,11 @@
     text-align: center;
     align-items: center;
     color: cornsilk;
+    position: relative;
     padding: 3rem;
     background: rgba(1, 1, 1, 0.5);
     margin-bottom: none;
+    z-index: 1;
 
     @media @tablet{
         width: 65%;
@@ -97,6 +95,7 @@
     align-items: center;
     margin-bottom: 2rem;
     padding-top: 3rem;
+    position: absolute;
     color: cornsilk;
     background: rgba(1, 1, 1, 0.5);
     margin-top: none;
