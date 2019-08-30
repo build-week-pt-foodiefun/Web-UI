@@ -203,7 +203,7 @@ nav .login {
   color: cornsilk;
   padding: 3rem;
   background: rgba(1, 1, 1, 0.5);
-  margin-bottom: none;
+  padding-bottom: 3rem;
 }
 @media (min-width: 500px) {
   .top-content {
@@ -270,6 +270,7 @@ nav .login {
     width: 65%;
     background: rgba(1, 1, 1, 0.5);
     margin-left: 17.5%;
+    margin-bottom: 3rem;
   }
 }
 @media (min-width: 800px) {
@@ -284,6 +285,7 @@ nav .login {
 }
 .bottom-content img {
   width: 15%;
+  margin: 3rem;
 }
 @media (min-width: 500px) {
   .bottom-content p {
