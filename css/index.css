@@ -240,23 +240,20 @@ nav .login {
   border-top: 1px solid cornsilk;
   border-bottom: none;
 }
-.top-content button {
+.top-content a {
+  text-decoration: none;
+  color: cornsilk;
+  font-size: 1.6rem;
   margin: 2rem 0 0 0;
   padding: 1.3rem 2.5rem;
   background: none;
   border: 1px solid cornsilk;
 }
-.top-content button a {
-  text-decoration: none;
-  color: cornsilk;
-}
-.top-content button:hover {
+.top-content a:hover {
   background: rgba(158, 158, 158, 0.5);
 }
-.top-content button:active {
+.top-content a:active {
   background: rgba(255, 255, 255, 0.5);
-}
-.top-content button:active a {
   text-decoration: none;
   color: black;
 }
